@@ -23,10 +23,10 @@ from pymongo import MongoClient
 import mysql.connector
 
 ## Twitter API credentials
-consumer_key = 'OSyoPl5h5woBUX0x1vnYUjNQR'
-consumer_secret = 'ibwVbguvtMmcIlM3AdMJ3WPq0yd8HjfczRunoblYHLPGIKMVId'
-access_token = '1039645304008597510-WkpUCiV1m6yLoq54im2heOiNQXFsZs'
-access_token_secret = 'qk817bo5pkrW2z2zVZi9sO9BQ1zEWwsc8MZMgfQOGMsld'
+consumer_key = ''
+consumer_secret = ''
+access_token = ''
+access_token_secret = ''
 
 
 class mini_project_1:
