@@ -1,6 +1,5 @@
 # EC601-Mini_Project_3: Mangodb / MySQL
 2018 Fall - Boston University - EC601 #project_3
-API
 
 1. Twitter API: 
    Use twitter API to grab the photos form the twitter account.
