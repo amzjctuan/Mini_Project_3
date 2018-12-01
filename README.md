@@ -1,4 +1,4 @@
-# EC601-Mini_Project: Mangodb / MySQL
+# EC601-Mini_Project_3: Mangodb / MySQL
 2018 Fall - Boston University - EC601 #project_3
 API
 
