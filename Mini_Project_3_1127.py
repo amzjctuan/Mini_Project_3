@@ -326,30 +326,6 @@ class sql:
                 val = (key, merged_array[key])
                 mycursor.execute(sql_insert, val)
             self.db.commit()
-            
-
-        
-    # def getMostword(self):
-    #     mycursor = self.db.cursor()
-    #     command = \
-    #     "SELECT word , COUNT(*) total " + \
-    #         "FROM " + \
-    #             "( SELECT DISTINCT GoogleAnalysis " + \
-    #                 ", SUBSTRING_INDEX(SUBSTRING_INDEX(line,' ',i+1),' ',-1) word " + \
-    #             "FROM user " + \
-    #                 ", ints " + \
-    #             ") x " + \
-    #         "GROUP " + \
-    #             "BY word " + \
-    #     "HAVING COUNT(*) > 3 " + \
-    #     "ORDER " + \
-    #     "BY total DESC " + \
-    #     ", word; "
-    #     mycursor.execute(command)
-    #     myresult = mycursor.fetchall()
-    #     for x in myresult:
-    #         print(x)
-
 
     def deleteALL(self):
         mycursor = self.db.cursor()
@@ -412,12 +388,12 @@ if __name__ == '__main__':
     m_sql.printAllSearchTb()
 
 
-    # # MiniProject_3:
-    # # userData.delete()
-    # # userData.write(twitterID,URL,photoNumber,video,GoogleAnalysis)
-    # # userData.update(twitterID,URL,video,GoogleAnalysis)
-    # # userData.read()
-    # # # userData.search()
-    # # userData.test()
+    # Mangodb:
+    # userData.delete()
+    # userData.write(twitterID,URL,photoNumber,video,GoogleAnalysis)
+    # userData.update(twitterID,URL,video,GoogleAnalysis)
+    # userData.read()
+    # # userData.search()
+    # userData.test()
 
     
